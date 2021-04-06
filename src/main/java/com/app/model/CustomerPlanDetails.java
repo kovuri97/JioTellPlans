@@ -115,4 +115,13 @@ public class CustomerPlanDetails {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	@Override
+	public String toString() {
+		return "CustomerPlanDetails [customerPlanId=" + customerPlanId + ", customerId=" + customerId + ", planId="
+				+ planId + ", planCategory=" + planCategory + ", price=" + price + ", planValidity=" + planValidity
+				+ ", planData=" + planData + ", dataSpeed=" + dataSpeed + ", voice=" + voice + ", sms=" + sms
+				+ ", otherSubscription=" + otherSubscription + ", status=" + status + ", planCount=" + planCount
+				+ ", date=" + date + ", planAvailableDays=" + planAvailableDays + "]";
+	}
+	
 }

@@ -71,4 +71,5 @@ public class CutomerPlanFraming {
 	public void setOtherSubscription(String otherSubscription) {
 		this.otherSubscription = otherSubscription;
 	}
+	
 }
